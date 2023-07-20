@@ -209,7 +209,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-07-20 22:07:20</span>
+        <span class="pc">2023-07-20 22:16:22</span>
     </span>
     
     
@@ -229,7 +229,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>212 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>211 字</span>
         </span>
     
     
@@ -258,7 +258,9 @@
 <h3 id="Toolchain"><a href="#Toolchain" class="headerlink" title="Toolchain"></a>Toolchain</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -y build-essential gdb</span><br><span class="line">sudo apt-get install -y gcc-multilib</span><br></pre></td></tr></table></figure>
 <h3 id="qemu"><a href="#qemu" class="headerlink" title="qemu"></a>qemu</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install -y libpixman-1-dev pkg-config zlib1g-dev libglib2.0-dev python</span><br><span class="line">git clone https://github.com/mit-pdos/6.828-qemu.git qemu</span><br><span class="line">cd qemu</span><br><span class="line">./configure --disable-kvm --target-list=&quot;i386-softmmu x86_64-softmmu&quot;</span><br></pre></td></tr></table></figure>
 <p>QEMU will install to &#x2F;usr&#x2F;local by default</p>
-<h4 id="Q-amp-A："><a href="#Q-amp-A：" class="headerlink" title="Q&amp;A："></a>Q&amp;A：</h4><p>● VSCODE-WSL2的写权限：<br>sudo chown -R $USER &#x2F;home<br>● make error<br><a class="link"   target="_blank" rel="noopener" href="https://github.com/woai3c/MIT6.828/blob/master/docs/install.md" >https://github.com/woai3c/MIT6.828/blob/master/docs/install.md<i class="fas fa-external-link-alt"></i></a><br>● make sucess</p>
+<h4 id="Q-amp-A："><a href="#Q-amp-A：" class="headerlink" title="Q&amp;A："></a>Q&amp;A：</h4><p>● VSCODE-WSL2的写权限：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R $USER /home</span><br></pre></td></tr></table></figure>
+<p>● make error<br><a class="link"   target="_blank" rel="noopener" href="https://github.com/woai3c/MIT6.828/blob/master/docs/install.md" >https://github.com/woai3c/MIT6.828/blob/master/docs/install.md<i class="fas fa-external-link-alt"></i></a><br>● make sucess</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">qemu-system-i386 --version</span><br><span class="line">QEMU emulator version 2.3.0, Copyright (c) 2003-2008 Fabrice Bellard</span><br></pre></td></tr></table></figure>
 <h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h3><p><a class="link"   target="_blank" rel="noopener" href="https://pdos.csail.mit.edu/6.828/2018/tools.html" >https://pdos.csail.mit.edu/6.828/2018/tools.html<i class="fas fa-external-link-alt"></i></a></p>
 
