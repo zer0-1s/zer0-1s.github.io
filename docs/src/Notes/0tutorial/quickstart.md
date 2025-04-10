@@ -61,10 +61,8 @@ npm run docs:dev
 <LinkCard link="https://skewb.gitee.io/vitepress/guide/routing.html" desc="【VitePress 民间翻译】 路由"/>
 <LinkCard link="https://vitepress.dev/guide/routing" desc="【VitePress 官方文档】 Routing"/>
 
-随后：
 
-- 如果你想自定义网站的外观，请查看 [个性化配置](./reference.md)。
-- 如果你已经完成了博客站点的构建，可以阅读 [部署指南](./deployment.md) 了解如何部署你的站点。
+
 
 ## 其他
 
