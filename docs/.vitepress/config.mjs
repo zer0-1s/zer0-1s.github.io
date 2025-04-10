@@ -29,7 +29,7 @@ export default defineConfig({
       { text: "👫 Friends", link: "Friends.md" },
     ],
     // 顶部导航栏左侧的社交平台跳转
-    socialLinks: [{ icon: "github", link: "https://github.com/ZbWeR" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/zer0-1s" }],
     // 首页底部版权声明
     footer: {
       copyright: "Copyright © 2023-present zbwer",
