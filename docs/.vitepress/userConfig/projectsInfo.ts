@@ -14,8 +14,7 @@ export const projectsInfo: Project[] = [
   {
     banner: "/project-img/gpt-feishu.png",
     title: "eBPF",
-    description:
-      "容器逃逸检测",
+    description:"容器逃逸检测",
     link: "https://github.com/zer0-1s/ehids-agent",
     tag: "Golang",
   },

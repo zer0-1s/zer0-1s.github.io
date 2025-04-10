@@ -16,7 +16,7 @@ export const friendsInfo: Friend[] = [
     avatar: "https://avatars.githubusercontent.com/u/108183563?v=4",
     name: "ZzzRemake",
     title: "🚀 运维master Yue",
-    link: "",
+    link: "https://zzzremake.github.io/",
     tag: "Research Associate",
     color: "indigo",
   },

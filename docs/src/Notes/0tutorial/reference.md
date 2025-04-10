@@ -84,7 +84,7 @@ export default defineConfig({
   // ...
   themeConfig: {
     // ...
-    socialLinks: [{ icon: "github", link: "https://github.com/ZbWeR" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/zer0-1s" }],
   },
 });
 ```
